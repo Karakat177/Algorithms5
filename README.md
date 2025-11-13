@@ -20,16 +20,16 @@ Project features:
 ## 📂 Project Structure
 project/
 ├─ src/
-│ ├─ Main.java # Main class to run the algorithm
-│ └─ KMP.java # KMP algorithm implementation
+│ ├─ Main.java 
+│ └─ KMP.java
 ├─ data/
-│ ├─ text_short.txt # Short text
-│ ├─ text_medium.txt # Medium-length text
-│ ├─ text_long.txt # Long text
-│ └─ pattern.txt # Pattern to search
+│ ├─ text_short.txt 
+│ ├─ text_medium.txt 
+│ ├─ text_long.txt 
+│ └─ pattern.txt
 ├─ sample_outputs/
-│ └─ outputs.txt # Program output (generated automatically)
-└─ README.md # This file
+│ └─ outputs.txt
+└─ README.md
 
 
 
