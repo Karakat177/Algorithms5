@@ -18,7 +18,18 @@ Project features:
 ---
 
 ## 📂 Project Structure
-
+project/
+├─ src/
+│ ├─ Main.java # Main class to run the algorithm
+│ └─ KMP.java # KMP algorithm implementation
+├─ data/
+│ ├─ text_short.txt # Short text
+│ ├─ text_medium.txt # Medium-length text
+│ ├─ text_long.txt # Long text
+│ └─ pattern.txt # Pattern to search
+├─ sample_outputs/
+│ └─ outputs.txt # Program output (generated automatically)
+└─ README.md # This file
 
 
 
@@ -88,3 +99,23 @@ Project features:
 ---
 
 ## 💾 6. Example Output (`sample_outputs/outputs.txt`)
+--- text_short.txt ---
+Text length: 14
+Pattern length: 3
+Occurrences: 3
+Positions: [2, 5, 10]
+Time: 0.4283 ms
+
+--- text_medium.txt ---
+Text length: 66
+Pattern length: 3
+Occurrences: 15
+Positions: [2, 5, 10, 14, 19, 22, 28, 31, 36, 40, 45, 48, 53, 56, 60]
+Time: 0.0175 ms
+
+--- text_long.txt ---
+Text length: 245
+Pattern length: 3
+Occurrences: 3
+Positions: [60, 140, 225]
+Time: 0.0589 ms
